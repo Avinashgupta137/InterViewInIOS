@@ -1,0 +1,275 @@
+[{
+        "id": 1,
+        "Question": "What is the difference between a static method and an instance method in Swift?",
+        "Answer": "A static method is a method that is called on the class itself, while an instance method is a method that is called on an instance of the class."
+    },
+    {
+        "id": 2,
+        "Question": "What is the difference between a subscript and a computed property in Swift?",
+        "Answer": "A subscript is a way to access elements of a collection using an index, while a computed property is a property that is calculated on the fly."
+    },
+    {
+        "id": 3,
+        "Question": "What is the difference between a type alias and an associated type in Swift?",
+        "Answer": "A type alias is a way to give a type a different name, while an associated type is a place holder for a type used in a protocol."
+    },
+    {
+        "id": 4,
+        "Question": "What is the difference between a map and a filter in Swift?",
+        "Answer": "A map is a function that is used to transform an array of items, while a filter is a function that is used to filter an array of items."
+    },
+    {
+        "id": 5,
+        "Question": "What is the difference between a flatMap and a compactMap in Swift?",
+        "Answer": "A flatMap is a function that is used to flatten an array of arrays, while a compactMap is a function that is used to remove nil values from an array."
+    },
+    {
+        "id": 6,
+        "Question": "What is the difference between a lazy variable and a computed property in Swift?",
+        "Answer": "A lazy variable is a variable that is only initialized when it is first accessed, while a computed property is a property that is calculated on the fly."
+    },
+    {
+        "id": 7,
+        "Question": "What is the difference between a defer statement in Swift?",
+        "Answer": "A defer statement is used to execute code just before the current scope exits."
+    },
+    {
+        "id": 8,
+        "Question": "What is the difference between an Objective-C class and an Objective-C category?",
+        "Answer": "A class is a blueprint for an object, while a category is a way to add methods to an existing class without having to subclass it."
+    },
+    {
+        "id": 9,
+        "Question": "What is the difference between a strong reference and a weak reference in iOS?",
+        "Answer": "A strong reference is a reference that keeps an object in memory, while a weak reference is a reference that does not keep an object in memory. If there are no strong references to an object, it will be deallocated."
+    },
+    {
+        "id": 10,
+        "Question": "How does ARC work in iOS?",
+        "Answer": "ARC, or Automatic Reference Counting, is a feature of the iOS SDK that automatically manages the memory of objects. When an object is no longer needed, ARC will automatically release it from memory."
+    },
+    {
+        "id": 11,
+        "Question": "IWhat is the difference between a delegate and an NSNotification in iOS?",
+        "Answer": "A delegate is a way for one object to communicate with another object, while an NSNotification is a way for an object to broadcast a message to other objects."
+    },
+    {
+        "id": 12,
+        "Question": "What is the difference between a synchronous and an asynchronous request in iOS?",
+        "Answer": "A synchronous request will block the current thread until the request is completed, while an asynchronous request will return immediately and the response will be returned through a callback or a delegate method."
+    }, {
+        "id": 13,
+        "Question": "What is the difference between a frame and a bounds in iOS?",
+        "Answer": "A frame is the position and size of a view in relation to its superview, while bounds is the position and size of a view in relation to its own coordinate system."
+    }, {
+        "id": 14,
+        "Question": "How do you handle errors in iOS?",
+        "Answer": "Errors can be handled in iOS using the NSError object. You can check for errors in your code and handle them appropriately."
+    }, {
+        "id": 15,
+        "Question": "What is the difference between a protocol and a category in iOS?",
+        "Answer": "A protocol defines a set of methods that a class must implement, while a category is a way to add methods to an existing class without having to subclass it."
+    }, {
+        "id": 16,
+        "Question": "How do you create a custom view in iOS?",
+        "Answer": "To create a custom view in iOS, you can create a new class that inherits from UIView and override the drawRect: method to draw your custom content."
+    }, {
+        "id": 17,
+        "Question": "What is the difference between a UITableView and a UICollectionView in iOS?",
+        "Answer": "A UITableView is a view that displays a list of items in a single column, while a UICollectionView is a view that displays a grid of items."
+    }, {
+        "id": 18,
+        "Question": "What is the difference between a UITableViewCell and a UICollectionViewCell in iOS?",
+        "Answer": "A UITableViewCell is a single cell in a UITableView, while a UICollectionViewCell is a single cell in a UICollectionView."
+    }, {
+        "id": 19,
+        "Question": "How do you create a segue between two view controllers in iOS?",
+        "Answer": "To create a segue between two view controllers in iOS, you can control-drag from one view to another view."
+    }, {
+        "id": 20,
+        "Question": "What is the difference between a struct and a class in Swift?",
+        "Answer": "A struct is a value type that is copied when it is assigned to a variable or constant, while a class is a reference type that is passed by reference."
+    },
+    {
+        "id": 21,
+        "Question": "What is the difference between a tuple and an array in Swift?",
+        "Answer": "A tuple is a collection of values with different types, while an array is a collection of values with the same type."
+    },
+    {
+        "id": 22,
+        "Question": "What is the difference between a closure and a function in Swift?",
+        "Answer": "A closure is a self-contained block of code that can be passed around and used in your code, while a function is a named block of code that can be called."
+    }, {
+        "id": 23,
+        "Question": "What is the difference between a computed property and a stored property in Swift?",
+        "Answer": "A computed property is a property that is calculated on the fly, while a stored property is a property that has a fixed value."
+    }, {
+        "id": 24,
+        "Question": "What is the difference between a protocol and an extension in Swift?",
+        "Answer": "A protocol defines a set of methods that a class must implement, while an extension is a way to add methods to an existing class without having to subclass it."
+    }, {
+        "id": 25,
+        "Question": "What is the difference between a guard statement and an if statement in Swift?",
+        "Answer": "A guard statement is used to exit a function or loop early if a certain condition is not met, while an if statement is used to execute code conditionally."
+    }, {
+        "id": 26,
+        "Question": "What is the difference between a for-in loop and a for loop in Swift?",
+        "Answer": "A for-in loop is used to iterate over a collection of items, while a for loop is used to execute a block of code a certain number of times."
+    }, {
+        "id": 27,
+        "Question": "What is the difference between a weak reference and an unowned reference in Swift?",
+        "Answer": "A weak reference is a reference that does not keep an object in memory, while an unowned reference is a reference that does not keep an object in memory and assumes that the object will always be in memory."
+    }, {
+        "id": 28,
+        "Question": "What is the difference between a State and a Binding in SwiftUI?",
+        "Answer": "A State is a property wrapper that allows to read and write a value, while a Binding is a property wrapper that allows to read and write a value and also share it with other views."
+    }, {
+        "id": 29,
+        "Question": "What is the role of the body property in a SwiftUI view?",
+        "Answer": "The body property is the main content of a view and it’s the only required property in a view. It defines what the view should display."
+    }, {
+        "id": 30,
+        "Question": "What is the difference between a Text and a Label in SwiftUI?",
+        "Answer": "A Text is a low-level text view that can be customized with various text styles and attributes, while a Label is a higher-level text view that uses a standard font and text color by default."
+    },
+    {
+        "id": 31,
+        "Question": "What is the difference between a List and a ScrollView in SwiftUI?",
+        "Answer": "A List is a container view that presents rows of data arranged in a single column, while a ScrollView is a container view that presents content in a scrollable viewport."
+    },
+    {
+        "id": 32,
+        "Question": "How to use @State and @Binding in SwiftUI?",
+        "Answer": "@State is used to create a state property that can be read and written to, while @Binding is used to share a state with another view."
+    }, {
+        "id": 33,
+        "Question": "How to handle user input and gestures in SwiftUI?",
+        "Answer": "SwiftUI uses the target-action pattern to handle user input and gestures. To handle user input, you can use the onTapGesture and onLongPressGesture modifiers on views, and to handle gestures, you can use the gesture modifier on views."
+    }, {
+        "id": 34,
+        "Question": "How to implement navigation in SwiftUI?",
+        "Answer": "SwiftUI uses a navigation view to implement navigation. To push a new view on the navigation stack, you can use the navigationBarItems and navigationBarTitle modifiers on views."
+    }, {
+        "id": 35,
+        "Question": "What is the difference between a @StateObject and a @ObservedObject in SwiftUI?",
+        "Answer": "A @StateObject is a state property that is shared across the entire app, while a @ObservedObject is a property that is shared among multiple views."
+    }, {
+        "id": 36,
+        "Question": "How to implement data binding in SwiftUI?",
+        "Answer": "You can use the $ operator to create a binding to a state property and pass it to another view."
+    }, {
+        "id": 37,
+        "Question": "How to handle errors in SwiftUI?",
+        "Answer": "SwiftUI uses the Result type to handle errors. You can use the try? and try! operators to handle errors, or you can use the Result type to handle errors explicitly."
+    }, {
+        "id": 38,
+        "Question": "What is the role of the environment in SwiftUI?",
+        "Answer": "The environment is a way to pass data and settings down the view hierarchy in SwiftUI. You can use the environmentObject() and environment() modifiers to set values in the environment."
+    }, {
+        "id": 39,
+        "Question": "How to create a custom view in SwiftUI?",
+        "Answer": "To create a custom view in SwiftUI, you can create a new struct that conforms to the View protocol and define its body property. You can also use the custom modifier to customize the appearance of a view."
+    }, {
+        "id": 40,
+        "Question": "How to use the PreviewProvider in SwiftUI?",
+        "Answer": "The PreviewProvider is a protocol that allows you to see a live preview of your views in Xcode. To use the PreviewProvider, you can create a struct that conforms to the PreviewProvider protocol and define its previews property."
+    },
+    {
+        "id": 41,
+        "Question": "What is the difference between Auto Layout and manual layout in UIKit?",
+        "Answer": "Auto Layout is a system for defining the layout of views and controls in relation to each other, while manual layout is a system for defining the layout of views and controls using fixed coordinates."
+    },
+    {
+        "id": 42,
+        "Question": "How to implement Auto Layout constraints in UIKit?",
+        "Answer": "Auto Layout constraints can be implemented in UIKit using the NSLayoutConstraint class. You can create constraints between views and controls and add them to the view hierarchy."
+    }, {
+        "id": 43,
+        "Question": "How to handle different screen sizes and orientations in UIKit?",
+        "Answer": "To handle different screen sizes and orientations in UIKit, you can use the UITraitCollection and UITraitEnvironment protocols to adapt the layout of your views and controls."
+    }, {
+        "id": 44,
+        "Question": "What is the difference between a frame and a bounds in UIKit?",
+        "Answer": "while bounds is the position and size of a view in relation to its own coordinate system."
+    }, {
+        "id": 45,
+        "Question": "How to create a custom view in UIKit?",
+        "Answer": "To create a custom view in UIKit, you can create a new class that inherits from UIView and override the drawRect: method to draw your custom content."
+    }, {
+        "id": 46,
+        "Question": "How to handle user input and gestures in UIKit?",
+        "Answer": "User input and gestures can be handled in UIKit using the target-action pattern. To handle user input, you can use the addTarget:action:forControlEvents: method on controls, and to handle gestures, you can use the UIGestureRecognizer class."
+    }, {
+        "id": 47,
+        "Question": "What is the difference between a UITableView and a UICollectionView in UIKit?",
+        "Answer": "A UITableView is a view that displays a list of items in a single column, while a UICollectionView is a view that displays a grid of items."
+    }, {
+        "id": 48,
+        "Question": "What is the difference between a UITableViewCell and a UICollectionViewCell in UIKit?",
+        "Answer": "A UITableViewCell is a single cell in a UITableView, while a UICollectionViewCell is a single cell in a UICollectionView."
+    }, {
+        "id": 49,
+        "Question": "How to create a segue between two view controllers in UIKit?",
+        "Answer": "To create a segue between two view controllers in UIKit, you can control-drag from one view controller to another in the storyboard."
+    }, {
+        "id": 50,
+        "Question": "How to handle errors in UIKit?",
+        "Answer": "Errors can be handled in UIKit using the NSError object. You can check for errors in your code and handle them appropriately."
+    },
+    {
+        "id": 51,
+        "Question": "How to implement data binding in UIKit?",
+        "Answer": "Data binding can be implemented in UIKit using the KVO (Key-Value Observing) pattern. You can observe properties of an object and update the UI accordingly."
+    },
+    {
+        "id": 52,
+        "Question": "How to handle different languages and localizations in UIKit?",
+        "Answer": "To handle different languages and localizations in UIKit, you can use the NSLocalizedString and NSLocalizedStringFromTable functions to load localized strings from a strings file."
+    }, {
+        "id": 53,
+        "Question": "What is the role of a framework in iOS development?",
+        "Answer": "A framework is a pre-built collection of classes and resources that can be used to add functionality to an iOS app. Frameworks can be used to add common functionality such as networking, data storage, and user interface elements."
+    }, {
+        "id": 54,
+        "Question": "How to use Core Data in iOS?",
+        "Answer": "Core Data is a framework used to manage and persist data in iOS apps. It can be used to create, read, update, and delete data, and it also provides features such as change tracking, undo and redo, and data validation."
+    }, {
+        "id": 55,
+        "Question": "What is the release process for an iOS app?",
+        "Answer": "The release process for an iOS app typically involves several stages, including development, testing, and distribution. The app must be developed and tested on various devices and environments, and then submitted to the App Store for review and distribution."
+    }, {
+        "id": 56,
+        "Question": "What is the difference between a development provisioning profile and a distribution provisioning profile?",
+        "Answer": "A development provisioning profile is used to run an app on a device during development, while a distribution provisioning profile is used to distribute an app through the App Store or enterprise distribution."
+    }, {
+        "id": 57,
+        "Question": "How to handle versioning and backwards compatibility in iOS?",
+        "Answer": "To handle versioning and backwards compatibility in iOS, you can use the NS_AVAILABLE macro to specify which versions of iOS a particular method or class is available in. You can also use the weak linking feature to allow your app to run on older versions of iOS."
+    }, {
+        "id": 58,
+        "Question": "How to handle In-App Purchases in iOS?",
+        "Answer": "In-App Purchases can be handled in iOS using the StoreKit framework. You can use the SKPaymentQueue, SKProduct, and SKPaymentTransaction classes to implement in-app purchases in your app."
+    }, {
+        "id": 59,
+        "Question": "How to handle push notifications in iOS?",
+        "Answer": "Push notifications can be handled in iOS using the UserNotifications framework. You can use the UNUserNotificationCenter, UNNotificationRequest, and UNNotificationContent classes to schedule and deliver push notifications in your app."
+    }, {
+        "id": 60,
+        "Question": "How to handle background tasks in iOS?",
+        "Answer": "Background tasks can be handled in iOS using the BackgroundTasks framework. You can use the BGTaskScheduler class to schedule background tasks, and the BGAppRefreshTask, BGProcessingTask, and BGScheduledTask classes to implement specific types of background tasks."
+    },
+    {
+        "id": 61,
+        "Question": "What are the guidelines for App Store submission?",
+        "Answer": "Guidelines for App Store submission include ensuring that the app is functional and stable, that it follows the App Store Review Guidelines and Human Interface Guidelines, and that it includes appropriate metadata such as screenshots and a description."
+    },
+    {
+        "id": 62,
+        "Question": "How to handle security and encryption in iOS?",
+        "Answer": "Security and encryption in iOS can be handled using the Security framework. You can use the Secure Enclave to store private keys and use encryption and decryption classes like AES and RSA."
+    }, {
+        "id": 63,
+        "Question": "How to handle privacy in iOS?",
+        "Answer": "Privacy in iOS can be handled by following the guidelines provided by Apple and the App Store Review Guidelines. This includes getting user permission for access to sensitive data, such as location and camera, and being transparent about data collection and usage."
+    }
+]
