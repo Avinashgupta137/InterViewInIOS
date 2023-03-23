@@ -50,7 +50,7 @@
     },
     {
         "id": 11,
-        "Question": "IWhat is the difference between a delegate and an NSNotification in iOS?",
+        "Question": "What is the difference between a delegate and an NSNotification in iOS?",
         "Answer": "A delegate is a way for one object to communicate with another object, while an NSNotification is a way for an object to broadcast a message to other objects."
     },
     {
